@@ -1,0 +1,13 @@
+# NightWatcher Configuration
+
+# The chance (0.0 to 1.0) that a naturally spawning monster will be duplicated at night.
+# 1.0 = 100% chance (double spawns), 0.5 = 50% chance.
+extra-spawn-chance: 0.50
+
+# Eerie Sounds Settings
+sounds:
+  # The chance (0.0 to 1.0) a player hears a creepy sound when moving around at night.
+  chance: 0.15
+  # Minimum cooldown (in milliseconds) between sound checks per player to prevent spam.
+  # 5000 = 5 seconds
+  cooldown-ms: 5000
